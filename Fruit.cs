@@ -31,7 +31,7 @@ namespace Snake
         }
         public void Draw()
         {
-            _gameField.Field[_y][_x].Val = "$";
+            _gameField.Field[_y][_x].Val = "@";
             _gameField.Field[_y][_x].Color = ConsoleColor.Yellow;
         }
 
